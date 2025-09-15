@@ -15,6 +15,9 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 -   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
 
+- Prashant
+
+
 -   Piyush Purkait([@Piyushdev-X](https://github.com/Piyushdev-X))
 
 -   Mohit 
@@ -111,6 +114,7 @@ Anurag Choubey
 -   Meet Gupta 
 -   Pranjal Gangwar
 Pranjal2007v/main
+
 
 
 

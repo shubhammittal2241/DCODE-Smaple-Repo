@@ -26,6 +26,7 @@ Yogye Berry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -48,3 +49,6 @@ Yogye Berry
 =======
 - Komal (https://github.com/komal-20ahlawat)
 >>>>>>> komal-20ahlawat/main
+=======
+Kunal Gupta
+>>>>>>> Kunal241207/main

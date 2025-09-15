@@ -49,6 +49,7 @@ Srijal Srivastava
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -132,3 +133,6 @@ Anurag Choubey
 =======
 - rakshit
 >>>>>>> rakshityadav1868/main
+=======
+-   Meet Gupta 
+>>>>>>> meetgupta996/main

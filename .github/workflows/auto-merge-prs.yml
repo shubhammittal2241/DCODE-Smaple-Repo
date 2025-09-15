@@ -1,0 +1,55 @@
+name: Auto Merge All PRs
+
+on:
+  workflow_dispatch:  
+  
+
+jobs:
+  merge-prs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: merge-playground 
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gh jq
+
+      - name: Authenticate GitHub CLI
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Merge all open PRs
+        run: |
+          set -e
+          BASE_BRANCH="merge-playground"
+          git config user.name "ved"
+          git config user.email "ved.pawar2024@nst.rishihood.edu.in"
+
+          # Ensure base branch is up to date
+          git checkout $BASE_BRANCH
+          git pull origin $BASE_BRANCH
+
+          # Get list of open PR numbers
+          prs=$(gh pr list --state open --json number --jq '.[].number')
+
+          for pr in $prs; do
+            echo "Merging PR #$pr..."
+
+            # Fetch PR branch
+            gh pr checkout $pr
+
+            # Switch back to base branch
+            git checkout $BASE_BRANCH
+
+            # Merge with union strategy (accepts both sides of conflict)
+            git merge "refs/remotes/pull/$pr/head" -m "Auto-merged PR #$pr" -X union || true
+
+            # Push after each PR merge
+            git push origin $BASE_BRANCH
+          done

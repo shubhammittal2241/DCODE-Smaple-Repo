@@ -16,6 +16,7 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Ved Pawar ([@vedpawar](https://github.com/vedpawar2254))
 =======
 =======
@@ -112,3 +113,6 @@ Ashwin Singh
 =======
 Anurag Choubey
 >>>>>>> AnuragChoubey-45/main
+=======
+- Deeksha Agrawal
+>>>>>>> deekshaagrawal1/main

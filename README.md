@@ -12,4 +12,9 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 ## 🚀 Our Contributors
 
+<<<<<<< HEAD
 -   Ved Pawar ([@vedpawar](https://github.com/vedpawar2254))
+=======
+-   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
+-   Kritarth Patel (https://github.com/KritarthPatel)
+>>>>>>> KritarthPatel/main

@@ -45,6 +45,7 @@ Srijal Srivastava
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -116,3 +117,6 @@ Anurag Choubey
 =======
 - Deeksha Agrawal
 >>>>>>> deekshaagrawal1/main
+=======
+-   Ariv
+>>>>>>> arivgupta07-byte/main

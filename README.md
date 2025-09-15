@@ -27,6 +27,7 @@ Yogye Berry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -52,3 +53,6 @@ Yogye Berry
 =======
 Kunal Gupta
 >>>>>>> Kunal241207/main
+=======
+- kanika prajapati
+>>>>>>> kanikaa30/main

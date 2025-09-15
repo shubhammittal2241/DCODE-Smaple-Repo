@@ -34,6 +34,7 @@ Yogye Berry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -83,3 +84,6 @@ jghlkjasdhrgl;kjen
 =======
 - abhishek bhai
 >>>>>>> abhishekkumar06-tech/main
+=======
+-   Suryanshu Tiwari 
+>>>>>>> Suryanshu-Tiwari-gh/main

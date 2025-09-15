@@ -48,6 +48,7 @@ Srijal Srivastava
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -128,3 +129,6 @@ Anurag Choubey
 =======
 -   Arpan Kaur ([@Arpan-Kaur2006](https://github.com/Arpan-Kaur2006))
 >>>>>>> Arpan-Kaur2006/main
+=======
+- rakshit
+>>>>>>> rakshityadav1868/main

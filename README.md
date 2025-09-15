@@ -12,6 +12,7 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 ## 🚀 Our Contributors
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20,6 +21,9 @@ DCODE will be a community of Developers and students who will be fueling major O
 =======
 Yogye Berry
 >>>>>>> Codehuman07/main
+=======
+Srijal Srivastava
+>>>>>>> Srijal-SS/main
 -   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
 <<<<<<< HEAD
 <<<<<<< HEAD

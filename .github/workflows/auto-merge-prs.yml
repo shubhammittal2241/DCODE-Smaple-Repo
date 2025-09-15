@@ -1,0 +1,119 @@
+name: Auto Merge All PRs
+
+on:
+  workflow_dispatch:   
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge-prs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: merge-playground  
+
+      - name: Install GitHub CLI + jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gh jq
+
+      - name: Authenticate GitHub CLI
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Merge all open PRs (auto-resolve by keeping both sides)
+        env:
+          BASE_BRANCH: merge-playground
+        run: |
+          # --- debug info ---
+          echo "Running on runner:"
+          uname -a
+          echo
+          echo "git version:"
+          git --version
+          echo
+          echo "gh version:"
+          gh --version || true
+          echo
+          # --- git identity ---
+          git config user.name "ved"
+          git config user.email "ved.pawar2024@nst.rishihood.edu.in"
+
+          # make sure base is present and up-to-date
+          git fetch --all --prune
+          git checkout "$BASE_BRANCH"
+          git pull origin "$BASE_BRANCH" || true
+
+          # list open PRs (numbers)
+          prs=$(gh pr list --state open --json number --jq '.[].number')
+          echo "Open PRs: $prs"
+
+          # function to auto-resolve conflict markers by keeping both sides
+          auto_resolve_file() {
+            f="$1"
+            echo "  -> auto-resolving $f"
+            # Use perl to replace conflict marker blocks with ours then theirs (no markers).
+            # -0777 reads whole file; the regex handles multiple conflict blocks with /gs
+            perl -0777 -pe 's/<<<<<<<[^\\n]*\\n(.*?)\\n=======\\n(.*?)\\n>>>>>>>[^\\n]*\\n/$1\n$2\n/gs' "$f" > "$f.resolved" && mv "$f.resolved" "$f"
+          }
+
+          for pr in $prs; do
+            echo "==== Processing PR #$pr ===="
+            # create/check out a local branch for PR
+            gh pr checkout "$pr" || { echo "gh pr checkout failed for #$pr"; continue; }
+            pr_branch=$(git rev-parse --abbrev-ref HEAD)
+            echo "Checked out PR branch: $pr_branch"
+
+            # switch back to base
+            git checkout "$BASE_BRANCH"
+
+            # attempt a merge without committing
+            echo "Attempting merge --no-commit --no-ff $pr_branch"
+            if git merge --no-commit --no-ff "$pr_branch"; then
+              echo "Merge clean for PR #$pr -> committing merge commit"
+              git commit -m "Auto-merged PR #$pr"
+            else
+              echo "Merge resulted in conflicts for PR #$pr. Auto-resolving by keeping both sides..."
+              # find conflicted files
+              conflicted_files=$(git diff --name-only --diff-filter=U) || true
+              if [ -z "$conflicted_files" ]; then
+                echo "No conflicted files reported (unexpected). Aborting merge attempt for PR #$pr."
+                git merge --abort || true
+              else
+                echo "Conflicted files:"
+                echo "$conflicted_files"
+                # resolve each conflicted file by removing conflict markers and keeping both sides
+                for f in $conflicted_files; do
+                  auto_resolve_file "$f"
+                  git add "$f"
+                done
+                # commit resolved state (if anything staged)
+                if git diff --cached --quiet; then
+                  echo "Nothing staged after auto-resolve (unexpected). Aborting."
+                  git merge --abort || true
+                else
+                  git commit -m "Auto-merged PR #$pr (auto-resolved conflicts by keeping both sides)"
+                fi
+              fi
+            fi
+
+            # push the base branch changes
+            echo "Pushing $BASE_BRANCH..."
+            git push origin "$BASE_BRANCH" || {
+              echo "Push failed for $BASE_BRANCH. If branch is protected, you need a PAT with write permissions instead of GITHUB_TOKEN."
+              # continue to next PR
+            }
+
+            # cleanup: delete local PR branch
+            git branch -D "$pr_branch" || true
+            echo "Finished PR #$pr"
+            echo
+          done
+
+          echo "All PRs processed."

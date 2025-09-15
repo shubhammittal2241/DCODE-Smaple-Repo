@@ -11,5 +11,132 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 
 ## 🚀 Our Contributors
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 -   Ved Pawar ([@vedpawar](https://github.com/vedpawar2254))
+=======
+=======
+Yogye Berry
+>>>>>>> Codehuman07/main
+=======
+Srijal Srivastava
+>>>>>>> Srijal-SS/main
+-   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+-   Kritarth Patel (https://github.com/KritarthPatel)
+>>>>>>> KritarthPatel/main
+=======
+-   Ved Pawar ([@janedoe](https://github.com/vedpawar2254)
+-   Shweta Sharma ([@Shweta-Sharma-Sh](https://github.com/Shweta-Sharma-sh)
+>>>>>>> Shweta-Sharma-sh/main
+=======
+- Pranjal Garg ([@pranjalgarg]((https://github.com/pjlgrg)
+>>>>>>> pjlgrg/main
+=======
+-   Tishika Arora
+>>>>>>> tishika25552-sys/main
+=======
+-   Harsh Raj ([@lonelyguy12](https://github.com/lonelyguy12))
+>>>>>>> LonelyGuy12/main
+=======
+-   Mudit Agrawal (https://github.com/muditagrawal2007)
+
+>>>>>>> muditagrawal2007/main
+=======
+- Komal (https://github.com/komal-20ahlawat)
+>>>>>>> komal-20ahlawat/main
+=======
+Kunal Gupta
+>>>>>>> Kunal241207/main
+=======
+- kanika prajapati
+>>>>>>> kanikaa30/main
+=======
+Prince
+jghlkjasdhrgl;kjen
+>>>>>>> the-prince-oss/main
+=======
+-   vanshadhlakha
+>>>>>>> VanshAdhlakha/main
+=======
+-   Shreya Das 
+
+>>>>>>> sd2604/main
+=======
+
+-   diachowdhary
+>>>>>>> diachowdhary/main
+=======
+-   Samarth Nagpal
+>>>>>>> Samarth-125/main
+=======
+- abhishek bhai
+>>>>>>> abhishekkumar06-tech/main
+=======
+-   Suryanshu Tiwari 
+>>>>>>> Suryanshu-Tiwari-gh/main
+=======
+- Rohan Pratap Singh
+>>>>>>> rohanpratapsingh21/main
+=======
+-   SHIVANS GUPTA
+
+>>>>>>> Shivans-cyber/main
+=======
+Nandani Dusad
+>>>>>>> JeffyNandani/main
+=======
+Ashwin Singh
+>>>>>>> greatkazuyamishima/main
+=======
+Anurag Choubey
+>>>>>>> AnuragChoubey-45/main
+=======
+- Deeksha Agrawal
+>>>>>>> deekshaagrawal1/main
+=======
+-   Ariv
+>>>>>>> arivgupta07-byte/main
+=======
+-   Ramit Layek
+>>>>>>> ramitl25727-cyber/main
+=======
+-   Arpan Kaur ([@Arpan-Kaur2006](https://github.com/Arpan-Kaur2006))
+>>>>>>> Arpan-Kaur2006/main
+=======
+- rakshit
+>>>>>>> rakshityadav1868/main
+=======
+-   Meet Gupta 
+>>>>>>> meetgupta996/main
+=======
+-   Pranjal Gangwar
+>>>>>>> Pranjal2007v/main

@@ -37,6 +37,7 @@ Yogye Berry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -96,3 +97,6 @@ jghlkjasdhrgl;kjen
 -   SHIVANS GUPTA
 
 >>>>>>> Shivans-cyber/main
+=======
+Nandani Dusad
+>>>>>>> JeffyNandani/main

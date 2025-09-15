@@ -17,6 +17,7 @@ DCODE will be a community of Developers and students who will be fueling major O
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Ved Pawar ([@vedpawar](https://github.com/vedpawar2254))
 =======
 =======
@@ -124,3 +125,6 @@ Anurag Choubey
 =======
 -   Ramit Layek
 >>>>>>> ramitl25727-cyber/main
+=======
+-   Arpan Kaur ([@Arpan-Kaur2006](https://github.com/Arpan-Kaur2006))
+>>>>>>> Arpan-Kaur2006/main

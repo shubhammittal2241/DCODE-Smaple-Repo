@@ -20,6 +20,7 @@ DCODE will be a community of Developers and students who will be fueling major O
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -35,3 +36,7 @@ DCODE will be a community of Developers and students who will be fueling major O
 =======
 -   Harsh Raj ([@lonelyguy12](https://github.com/lonelyguy12))
 >>>>>>> LonelyGuy12/main
+=======
+-   Mudit Agrawal (https://github.com/muditagrawal2007)
+
+>>>>>>> muditagrawal2007/main

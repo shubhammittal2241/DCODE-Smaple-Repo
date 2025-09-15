@@ -18,6 +18,7 @@ DCODE will be a community of Developers and students who will be fueling major O
 =======
 -   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -27,3 +28,6 @@ DCODE will be a community of Developers and students who will be fueling major O
 =======
 - Pranjal Garg ([@pranjalgarg]((https://github.com/pjlgrg)
 >>>>>>> pjlgrg/main
+=======
+-   Tishika Arora
+>>>>>>> tishika25552-sys/main

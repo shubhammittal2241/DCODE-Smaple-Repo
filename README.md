@@ -31,6 +31,7 @@ Yogye Berry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -70,3 +71,7 @@ jghlkjasdhrgl;kjen
 -   Shreya Das 
 
 >>>>>>> sd2604/main
+=======
+
+-   diachowdhary
+>>>>>>> diachowdhary/main

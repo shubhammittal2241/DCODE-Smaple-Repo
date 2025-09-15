@@ -28,6 +28,7 @@ Yogye Berry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   Kritarth Patel (https://github.com/KritarthPatel)
 >>>>>>> KritarthPatel/main
 =======
@@ -56,3 +57,7 @@ Kunal Gupta
 =======
 - kanika prajapati
 >>>>>>> kanikaa30/main
+=======
+Prince
+jghlkjasdhrgl;kjen
+>>>>>>> the-prince-oss/main

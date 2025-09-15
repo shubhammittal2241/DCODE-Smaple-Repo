@@ -12,5 +12,101 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 ## 🚀 Our Contributors
 
+
 -   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
 -   Mohit 
+
+-   Ved Pawar ([@vedpawar](https://github.com/vedpawar2254))
+
+Yogye Berry
+
+
+Srijal Srivastava
+main
+-   Sanyam Garg v
+-   Kritarth Patel (https://github.com/KritarthPatel)
+ KritarthPatel/main
+
+-   Ved Pawar ([@janedoe](https://github.com/vedpawar2254)
+-   Shweta Sharma ([@Shweta-Sharma-Sh](https://github.com/Shweta-Sharma-sh)
+
+
+- Pranjal Garg ([@pranjalgarg]((https://github.com/pjlgrg)
+
+
+-   Tishika Arora
+
+
+-   Harsh Raj ([@lonelyguy12](https://github.com/lonelyguy12))
+
+
+-   Mudit Agrawal (https://github.com/muditagrawal2007)
+
+
+
+- Komal (https://github.com/komal-20ahlawat)
+
+
+Kunal Gupta
+
+
+- kanika prajapati
+
+
+Prince
+jghlkjasdhrgl;kjen
+
+
+-   vanshadhlakha
+
+
+-   Shreya Das 
+
+
+
+
+-   diachowdhary
+
+
+-   Samarth Nagpal
+
+
+- abhishek bhai
+
+
+-   Suryanshu Tiwari 
+
+
+- Rohan Pratap Singh
+
+
+-   SHIVANS GUPTA
+
+
+
+Nandani Dusad
+
+
+Ashwin Singh
+
+
+Anurag Choubey
+
+
+- Deeksha Agrawal
+
+
+-   Ariv
+
+
+-   Ramit Layek
+
+
+-   Arpan Kaur ([@Arpan-Kaur2006](https://github.com/Arpan-Kaur2006))
+
+- rakshit
+-   Meet Gupta 
+-   Pranjal Gangwar
+Pranjal2007v/main
+
+

@@ -48,6 +48,7 @@ main
 
 -   Harsh Raj ([@lonelyguy12](https://github.com/lonelyguy12))
 
+-   Star Wandering ([@StarWanderer12](https://github.com/StarWanderer12))
 
 -   Mudit Agrawal (https://github.com/muditagrawal2007)
 

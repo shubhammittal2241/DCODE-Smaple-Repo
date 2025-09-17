@@ -14,6 +14,10 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 
 -   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
+- Shashank Badhautia (@ShashankBadhautia)(https://github.com/ShashankBadhautia)
+
+Aditya Srivastava
+
 
 - Prashant
 
@@ -45,6 +49,7 @@ main
 
 -   Harsh Raj ([@lonelyguy12](https://github.com/lonelyguy12))
 
+-   Star Wandering ([@StarWanderer12](https://github.com/StarWanderer12))
 
 -   Mudit Agrawal (https://github.com/muditagrawal2007)
 
@@ -114,6 +119,7 @@ Anurag Choubey
 -   Meet Gupta 
 -   Pranjal Gangwar
 Pranjal2007v/main
+
 
 - Yash Sengar
 

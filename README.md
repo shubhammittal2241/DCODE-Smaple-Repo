@@ -14,6 +14,9 @@ DCODE will be a community of Developers and students who will be fueling major O
 
 
 -   Ved Pawar ([@janedoe](https://github.com/vedpawar2254))
+
+-   Yashasvee Singh ([@janedoe](https://github.com/vedpawar2254))
+
 - Shashank Badhautia (@ShashankBadhautia)(https://github.com/ShashankBadhautia)
 
 Aditya Srivastava
@@ -122,6 +125,7 @@ Pranjal2007v/main
 
 
 - Yash Sengar
+
 
 
 
